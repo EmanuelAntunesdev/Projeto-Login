@@ -63,3 +63,54 @@ div#form > p {
     font-size: 0.8em;
     margin-bottom: 10px;
 }
+
+form > div.campo {
+    background-color: #b64037;
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 0.8em;
+    width: 100%;
+    height: 40px;
+    background-color: #7c2f29;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #421613;
+}
+
+form > a.botão {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #e97c74;
+    color: #7c2f29;
+    border: 1px solid #421613;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botão:hover {
+    background-color: #421613;
+}
+
+form > a.botão > i {
+    font-size: 0.8em;
+}
